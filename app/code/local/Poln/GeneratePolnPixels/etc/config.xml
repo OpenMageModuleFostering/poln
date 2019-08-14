@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--
+        The module's node contains basic
+        information about each Magento module
+    -->
+    <modules>
+        <!--
+            This must exactly match the namespace and module's folder
+            names, with directory separators replaced by underscores
+        -->
+        <Poln_GeneratePolnPixels>
+            <!-- The version of our module, starting at 0.0.1 -->
+            <version>1.0.0</version>
+        </Poln_GeneratePolnPixels>
+    </modules>
+
+    <global>
+        <!-- Defining models -->
+        <models>
+            <!--
+                Unique identifier in the model's node.
+                By convention, we put the module's name in lowercase.
+            -->
+            <poln_generatepolnpixels>
+                <!--
+                    The path to our models directory, with directory
+                    separators replaced by underscores
+                -->
+                <class>Poln_GeneratePolnPixels_Model</class>
+            </poln_generatepolnpixels>
+        </models>
+        
+        <!-- Defining an event observer -->
+        <events>
+            <!-- The code of the event we want to observe -->
+            <controller_action_layout_generate_blocks_after>
+                <!-- Defining an observer for this event -->
+                <observers>
+                    <!--
+                        Unique identifier within the
+                        catalog_product_save_after node.
+                        By convention, we write the module's
+                        name in lowercase.
+                    -->
+                    <poln_generatepolnpixels>
+                        <!-- The model to be instantiated -->
+                        <class> poln_generatepolnpixels/observer</class>
+                        <!-- The method of the class to be called -->
+                        <method>generatePixelsScript</method>
+                        <!-- The type of class to instantiate -->
+                        <type>singleton</type>
+                    </poln_generatepolnpixels>
+                </observers>
+            </controller_action_layout_generate_blocks_after>
+        </events>
+    </global>
+</config>

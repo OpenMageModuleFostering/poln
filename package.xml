@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>Poln</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Poln is the only Pretargeting Platform, designed to help you easily find new users at unbelievable prices.</summary>
+    <description>Poln pre-targeting is the first advertising platform designed specifically to help small to mid-sized online retailers acquire new customers easily and cost-effectively. Poln&#x2019;s mission is to offer the simplest customer-prospecting tool available while beating the performance of other leading ad platforms. Time is money, so Poln takes the guesswork out of advertising. &#xD;
+&#xD;
+Poln helps you create highly targeted and intelligent advertising campaigns that run only on premium display inventory. Each campaign is automatically adjusted as it runs, optimizing campaigns of all budgets to outperform the competition. &#xD;
+&#xD;
+Poln tracks user behavior across a wide network of retailers and anonymously categorizes shoppers based on their real-time purchasing behavior, demographics, and price point. We offer our clients big-agency expertise, packaged in the simplest consumer-prospecting platform on the market. &#xD;
+&#xD;
+To reach your ideal customer, simply choose the following targets:&#xD;
+&#xD;
+     1.	Product category&#xD;
+     2.	Price range &#xD;
+     3.	Countries in which your ads will be displayed &#xD;
+     4.	Gender &#xD;
+&#xD;
+It takes as few as 5 minutes to set up a campaign, and then Poln takes care of all the rest. It&#x2019;s as simple as that! &#xD;
+&#xD;
+Poln has no campaign minimums, no subscription fees, and no long-term contracts, so if you aren't running a campaign, you're not paying anything!&#xD;
+&#xD;
+Poln gives the little guys control of the big guns.  Start pre-targeting with Poln today! </description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Harmohit Lyall</name><user>hlyall</user><email>hlyall@poln.co</email></author></authors>
+    <date>2015-12-19</date>
+    <time>21:22:47</time>
+    <contents><target name="magelocal"><dir name="Poln"><dir name="GeneratePolnPixels"><dir name="Model"><file name="Observer.php" hash="ee9a41337c2333511f5d0e14ac6090f1"/></dir><dir name="etc"><file name="config.xml" hash="f3565daa1dbe8a6a658c8ab3cee9bd2b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Poln_GeneratePolnPixels.xml" hash="69190b5808730d87d3a2893924181548"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

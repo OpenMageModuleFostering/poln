@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Poln",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Poln is the only Pretargeting Platform, designed to help you easily find new users at unbelievable prices.",
+    "authors": [
+    {
+        "name": "Harmohit Lyall",
+        "email": "hlyall@poln.co"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
