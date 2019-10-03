@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Poln",
+    "name": "openmage-module-fostering\/poln",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Poln is the only Pretargeting Platform, designed to help you easily find new users at unbelievable prices.",
     "authors": [
